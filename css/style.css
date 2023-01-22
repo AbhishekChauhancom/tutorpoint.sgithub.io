@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-item{
+    font-family: 'PT Sans', sans-serif;
+}
+nav ul li {
+    padding: 5px 20px;
+} 
+nav ul li:hover a{
+    color: red !important;
+}
+
+.banner{
+    background-image: url('../imagesf/ban');
+    height: 100vh ;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.banner h1{
+    word-spacing: 5px;
+}
+ul>li{
+    list-style-type: none;
+}
+ul>li:hover{
+    color: white;
+    cursor: pointer;
+}
+ul>li:hover i{
+    color: black;
+}
+.col:hover{
+color: blue;
+
+}
+.card-body:hover{
+    background-color:goldenrod;
+}
